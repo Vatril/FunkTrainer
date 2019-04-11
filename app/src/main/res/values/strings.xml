@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Funk Trainer</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="random_trainer">Random Trainer</string>
+    <string name="code_trainer">Code Trainer</string>
 </resources>

@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        findViewById<RecyclerView>(R.id.radiocharlist).adapter =
-            RadioListAdapter(this)
-        findViewById<RecyclerView>(R.id.radiocharlist).layoutManager = LinearLayoutManager(this)
+        //findViewById<RecyclerView>(R.id.radiocharlist).adapter =
+        //    RadioListAdapter(this)
+        //findViewById<RecyclerView>(R.id.radiocharlist).layoutManager = LinearLayoutManager(this)
     }
 }
