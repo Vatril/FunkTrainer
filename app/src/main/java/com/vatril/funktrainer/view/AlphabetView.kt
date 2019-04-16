@@ -1,4 +1,4 @@
-package com.vatril.funktrainer
+package com.vatril.funktrainer.view
 
 import android.content.Context
 import android.support.v7.widget.LinearLayoutManager
@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
+import com.vatril.funktrainer.R
 import com.vatril.funktrainer.adapter.RadioListAdapter
 
 class AlphabetView(context: Context,attrs: AttributeSet?) : LinearLayout(context, attrs) {
