@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.vatril.funktrainer.R
-import com.vatril.funktrainer.RadioChars
+import com.vatril.funktrainer.RadioChar
 
 
 class RadioListAdapter(private val context: Context): RecyclerView.Adapter<ViewHolder>() {
@@ -16,10 +16,10 @@ class RadioListAdapter(private val context: Context): RecyclerView.Adapter<ViewH
         LayoutInflater.from(context).inflate(R.layout.radio_char_list_element, group, false)
     )
 
-    override fun getItemCount() = RadioChars.values().size
+    override fun getItemCount() = RadioChar.values().size
 
     override fun onBindViewHolder(holder: ViewHolder, number: Int) {
-        holder.setContent(RadioChars.values()[number].character, RadioChars.values()[number].text)
+        holder.setContent(RadioChar.values()[number].character, RadioChar.values()[number].text)
     }
 }
 

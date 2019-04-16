@@ -5,6 +5,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import com.vatril.funktrainer.R
+import kotlinx.android.synthetic.main.training_view.view.*
 
 
 class TrainingView(context: Context, attrs: AttributeSet?) : LinearLayout(context, attrs) {
@@ -15,5 +16,9 @@ class TrainingView(context: Context, attrs: AttributeSet?) : LinearLayout(contex
         LayoutInflater.from(context)
             .inflate(R.layout.training_view, this, true)
 
+    }
+
+    private fun next(){
+        training_display.text = "HHH"
     }
 }

@@ -1,6 +1,6 @@
 package com.vatril.funktrainer
 
-enum class RadioChars(val text: String,val character:Char) {
+enum class RadioChar(val text: String, val character:Char) {
     A("alpha", 'A'),
     B("bravo", 'B'),
     C("charlie", 'C'),
@@ -36,6 +36,8 @@ enum class RadioChars(val text: String,val character:Char) {
     N6("six", '6'),
     N7("seven", '7'),
     N8("eight", '8'),
-    N9("nine", '9'),
+    N9("nine", '9');
+
+    fun byCharacter(c:Char): RadioChar? = values().find { it.character == c  }
 
 }
