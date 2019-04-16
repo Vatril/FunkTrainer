@@ -2,13 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_camera"
+                android:id="@+id/nav_alphabet"
                 android:title="@string/alphabet" />
         <item
-                android:id="@+id/nav_gallery"
+                android:id="@+id/nav_training_random"
                 android:title="@string/random_trainer" />
         <item
-                android:id="@+id/nav_slideshow"
+                android:id="@+id/nav_training_abbr"
                 android:title="@string/code_trainer" />
     </group>
 

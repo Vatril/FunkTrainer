@@ -9,7 +9,7 @@ import com.vatril.funktrainer.R
 
 class TrainingView(context: Context, attrs: AttributeSet?) : LinearLayout(context, attrs) {
 
-    constructor(context: Context) : this(context, null)
+    constructor(context: Context, isRandom:Boolean) : this(context, null)
 
     init {
         LayoutInflater.from(context)
