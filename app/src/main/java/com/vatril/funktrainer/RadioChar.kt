@@ -38,6 +38,7 @@ enum class RadioChar(val text: String, val character:Char) {
     N8("eight", '8'),
     N9("nine", '9');
 
-    fun byCharacter(c:Char): RadioChar? = values().find { it.character == c  }
-
+    companion object {
+        fun byCharacter(c:Char) = values().find { it.character == c  }
+    }
 }
