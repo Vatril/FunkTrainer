@@ -5,7 +5,7 @@ import com.vatril.funktrainer.dataclass.Challenge
 import kotlin.random.Random
 
 object ChallengeGenerator {
-    private val characters = ('A'..'Z') + ('0'..'9')
+    private val characters = ('A'..'Z') + ('A'..'Z') + ('A'..'Z') + ('0'..'9')
 
     fun random(): Challenge {
         val randomString = (1..5)
