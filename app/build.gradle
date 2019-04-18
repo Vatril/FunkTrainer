@@ -5,6 +5,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    android.defaultConfig.vectorDrawables.useSupportLibrary = true
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.vatril.funktrainer"
