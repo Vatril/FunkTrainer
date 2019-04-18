@@ -8,9 +8,10 @@ object ChallengeGenerator {
     private val characters = ('A'..'Z') + ('A'..'Z') + ('A'..'Z') + ('0'..'9')
 
     fun random(): Challenge {
-        val randomString = (1..5)
+        val randomString = (1..6)
             .map{ Random.nextInt(0, characters.size)}
             .map(characters::get)
+            .distinct()
             .joinToString ("")
 
         return Challenge(randomString, randomString.map{ RadioChar.byCharacter(it)!! })
