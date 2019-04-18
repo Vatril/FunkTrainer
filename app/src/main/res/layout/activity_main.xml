@@ -10,12 +10,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/main_holder">
-        <com.vatril.funktrainer.view.AlphabetView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-        />
-    </FrameLayout>
+            android:id="@+id/main_holder"/>
     <android.support.design.widget.NavigationView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
